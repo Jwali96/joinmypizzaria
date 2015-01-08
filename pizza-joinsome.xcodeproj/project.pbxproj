@@ -13,6 +13,7 @@
 		9397B1741A5F1335000001B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9397B1731A5F1335000001B0 /* Images.xcassets */; };
 		9397B1771A5F1335000001B0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9397B1751A5F1335000001B0 /* LaunchScreen.xib */; };
 		9397B1831A5F1335000001B0 /* pizza_joinsomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9397B1821A5F1335000001B0 /* pizza_joinsomeTests.swift */; };
+		9397B18D1A5F1AA2000001B0 /* pizza thingy maggigy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9397B18C1A5F1AA2000001B0 /* pizza thingy maggigy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9397B17C1A5F1335000001B0 /* pizza-joinsomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pizza-joinsomeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9397B1811A5F1335000001B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9397B1821A5F1335000001B0 /* pizza_joinsomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pizza_joinsomeTests.swift; sourceTree = "<group>"; };
+		9397B18C1A5F1AA2000001B0 /* pizza thingy maggigy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "pizza thingy maggigy.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		9397B15E1A5F1335000001B0 = {
 			isa = PBXGroup;
 			children = (
+				9397B18C1A5F1AA2000001B0 /* pizza thingy maggigy.swift */,
 				9397B1691A5F1335000001B0 /* pizza-joinsome */,
 				9397B17F1A5F1335000001B0 /* pizza-joinsomeTests */,
 				9397B1681A5F1335000001B0 /* Products */,
@@ -214,6 +217,7 @@
 			files = (
 				9397B16F1A5F1335000001B0 /* ViewController.swift in Sources */,
 				9397B16D1A5F1335000001B0 /* AppDelegate.swift in Sources */,
+				9397B18D1A5F1AA2000001B0 /* pizza thingy maggigy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				9397B1881A5F1335000001B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9397B1891A5F1335000001B0 /* Build configuration list for PBXNativeTarget "pizza-joinsomeTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				9397B18B1A5F1335000001B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

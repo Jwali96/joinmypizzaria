@@ -14,14 +14,13 @@ protocol PizzaOrdering{
     
     func setToppings(toppings:Array<Toppings>)
     
-    func address(address:String)
+    func setAddress(address:String)
     
-    func timeDelivered()->Int
+    func timeDelivered()-> Int
     
     
     
 }
-
 
 
 enum Toppings{
@@ -36,6 +35,43 @@ enum Sizes{
 
 }
 
+class Pizza{
+    var size: Sizes?
+    var toppings: Array<Toppings>?
+    var address : String?
+}
 
+class Pizzaplace: PizzaOrdering {
+    
+    
+    func setSize(size:Sizes){
+        pizza.size = size
+    }
+    
+    func setToppings(toppings:Array<Toppings>){
+        pizza.toppings = toppings
+    }
+    
+    func setAddress(address:String){
+        pizza.address = address
+    }
+    
+    func timeDelivered()-> Int{
+        pizzas.append(pizza)
+        
+        return pizzas.count * 15
+    }
+    
+    func orderpizza(size:Sizes, toppings:Array<Toppings>, address:String){
+        setSize(size)
+        setToppings(toppings)
+        setAddress(address)
+        println("it will take \(timeDelivered())min")
+    }
 
+    
+    }
+    var pizza = Pizza()
+    var pizzas : Array<Pizza> = []
+    
 
